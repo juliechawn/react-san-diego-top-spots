@@ -24,10 +24,10 @@ class App extends Component {
     return (
       <div className='App'>
         <div className='container'>
-        <div className='jumbotron'>
+          <div className='jumbotron'>
             <h1>San Diego Top Spots</h1>
             <p>A list of top 30 places to see in San Diego, California</p>
-            </div>
+          </div>
           </div >
           { 
             this.state.topspots.map(topspot => (
